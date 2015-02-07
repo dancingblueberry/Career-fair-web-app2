@@ -1,0 +1,34 @@
+#carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* accordion settings */
+.accordion dd > a:hover,
+.accordion .accordion-navigation > a:hover {
+  background-color: #2285a2;
+}
+
+.accordion dd > a,
+.accordion dd.active > a,
+.accordion .accordion-navigation > a,
+.accordion .accordion-navigation.active > a {
+  background-color: #2ba6cb;
+  color: #e9e9e9;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* footer settings */
+.full-width {
+  max-width: 1400px;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 1rem;
+  text-align: center;
+  color: #e9e9e9;
+}
