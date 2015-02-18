@@ -1,3 +1,15 @@
+/* navbar settings */
+.sub-nav dt.active a,
+.sub-nav dd.active a,
+.sub-nav li.active a {
+  border-radius: 3px;
+  font-weight: normal;
+  background: #2ba6cb;
+  padding: 0.1875rem 1rem;
+  cursor: default;
+  color: #FFFFFF; 
+}
+
 /* carousel settings */
 #carousel .item img{
   display: block;
